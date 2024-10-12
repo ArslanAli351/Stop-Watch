@@ -1,0 +1,55 @@
+img {
+    margin-left: 180px;
+    position: fixed;
+    z-index: -1;
+    height: 550px;
+
+}
+
+
+#Timer {
+    margin-top: 200px;
+    position: fixed;
+    margin-left: 400px;
+    width: 20%;
+    text-align: center;
+}
+
+#Timer span {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#button {
+    width: 20%;
+    margin-left: 410px;
+    margin-top: 270px;
+    position: fixed;
+    text-align: center;
+    height: 50px;
+}
+
+#button button {
+    height: 30px;
+}
+
+
+@media screen and (max-width: 530px) {
+
+    img {
+        height: 340px;
+        margin-left: -20px;
+        margin-top: 90px;
+    }
+
+    #Timer {
+        margin-left: 90px;
+        width: 50%;
+    }
+
+    #button {
+        margin-left: 120px;
+        width: 40%;
+        margin-top: 250px;
+    }
+}
